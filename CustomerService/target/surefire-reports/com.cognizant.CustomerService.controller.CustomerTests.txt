@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.CustomerService.controller.CustomerTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 13.483 s <<< FAILURE! - in com.cognizant.CustomerService.controller.CustomerTests
+updateCustomers  Time elapsed: 2.961 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<200> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.updateCustomers(CustomerTests.java:103)
+
+deleteNotPresentEmployeeAPI  Time elapsed: 2.066 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<406> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.deleteNotPresentEmployeeAPI(CustomerTests.java:144)
+
+saveCustomers  Time elapsed: 2.079 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<200> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.saveCustomers(CustomerTests.java:85)
+
+unsuccesfulCustomer  Time elapsed: 2.066 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<406> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.unsuccesfulCustomer(CustomerTests.java:121)
+
+getOneEmployees  Time elapsed: 2.082 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<200> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.getOneEmployees(CustomerTests.java:131)
+
+deleteEmployeeAPI  Time elapsed: 2.077 s  <<< FAILURE!
+java.lang.AssertionError: Response status expected:<200> but was:<500>
+	at com.cognizant.CustomerService.controller.CustomerTests.deleteEmployeeAPI(CustomerTests.java:138)
+
